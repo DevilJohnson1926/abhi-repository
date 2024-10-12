@@ -50,3 +50,44 @@ footer {
     bottom: 0;
     width: 100%;
 }
+/* --- MEDIA QUERIES FOR RESPONSIVENESS --- */
+
+/* For screens smaller than 768px (tablets and phones) */
+@media (max-width: 768px) {
+    .container {
+        width: 90%;
+        padding: 15px;
+    }
+
+    h1, h2 {
+        font-size: 1.5rem;
+    }
+
+    ul li a {
+        font-size: 1rem;
+    }
+
+    p a {
+        font-size: 1rem;
+    }
+}
+
+/* For screens smaller than 480px (phones) */
+@media (max-width: 480px) {
+    .container {
+        width: 95%;
+        padding: 10px;
+    }
+
+    h1, h2 {
+        font-size: 1.2rem;
+    }
+
+    ul li a {
+        font-size: 0.9rem;
+    }
+
+    p a {
+        font-size: 0.9rem;
+    }
+}
